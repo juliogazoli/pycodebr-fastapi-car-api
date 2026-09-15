@@ -23,3 +23,6 @@
 
 ### 5. Criar um novo projeto
 - `poetry new --flat car_api` — cria um novo projeto com estrutura simples em uma pasta chamada car_api.
+
+### 6. Inicializar o Alembic
+- `poetry run alembic init migrations` — inicializa a estrutura do Alembic no projeto para gerenciar migrações de banco de dados.
