@@ -26,3 +26,6 @@
 
 ### 6. Inicializar o Alembic
 - `poetry run alembic init migrations` — inicializa a estrutura do Alembic no projeto para gerenciar migrações de banco de dados.
+
+- `poetry run alembic revision --autogenerate -m "create users tables"` — cria uma nova migration com as alterações detectadas nos modelos, incluindo a tabela de usuários.
+- `poetry run alembic upgrade head` — aplica ao banco de dados todas as migrations até a versão mais recente.

@@ -1,4 +1,4 @@
-from car_api.models import Base
+from car_api.models.base import Base
 
 from car_api.models.users import User
 
